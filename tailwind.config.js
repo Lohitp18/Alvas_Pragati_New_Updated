@@ -1,0 +1,22 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+    
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      keyframes: {
+        'marquee-rtl': {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        'marquee-rtl': 'marquee-rtl 15s linear infinite',
+      },
+      fontFamily: {
+        oswald: ['Oswald', 'sans-serif'], // Add your custom font here
+      },
+    },
+  },
+  plugins: [],
+};
