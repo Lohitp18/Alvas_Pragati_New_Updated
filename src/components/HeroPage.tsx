@@ -654,7 +654,7 @@ const CompanyList: React.FC<CompanyListProps> = ({ companies, sectors }) => {
   });
 
   return (
-    <section className="bg-white rounded-xl shadow-lg p-8">
+    <section className="bg-white rounded-xl shadow-lg p-8 mt-16">
       <h2 className="text-3xl font-bold text-gray-900 mb-8 font-serif">
         Alva's Pragati-2025 Selected and Shortlisted Results
       </h2>
