@@ -779,7 +779,7 @@ const FeedbackForm: React.FC = () => {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://alvas-pragati-helper.vercel.app/feedback", {
+      const res = await fetch("https://alvas-pragati-new-updated.vercel.app/feedback", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(feedbackForm),

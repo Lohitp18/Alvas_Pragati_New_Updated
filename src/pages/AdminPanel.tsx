@@ -16,7 +16,7 @@ const AdminPanel: React.FC = () => {
 
   // Fetch feedback from backend
   useEffect(() => {
-    fetch('http://localhost:5000/feedback')
+    fetch('https://alvas-pragati-new-updated.vercel.app/feedback')
       .then(res => res.json())
       .then((data: Feedback[]) => setFeedbackList(data))
       .catch(err => console.error(err));
